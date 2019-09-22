@@ -1,0 +1,21 @@
+.el-menu-item, .el-submenu__title {
+  background-color: #66b1ff;
+  color: #303133;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  white-space: nowrap;
+  list-style: none;
+}
+.el-menu-item.is-active {
+  color: #409EFF;
+}
+.el-menu {
+  border-right: solid 1px #66b1ff;
+  list-style: none;
+  position: relative;
+  margin: 0;
+  padding-left: 0;
+  background-color: #66b1ff;
+}
